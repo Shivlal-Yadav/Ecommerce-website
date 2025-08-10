@@ -32,7 +32,7 @@ export const mockProducts: Product[] = [
     id: '4',
     name: 'ACME Beanie',
     price: 30,
-    imageUrl: '/placeholder.svg',
+    imageUrl: '/placeholder.png',
     description: 'A soft, warm beanie to keep your head warm in style.'
   },
 ];

@@ -22,8 +22,8 @@ const ProductPage = ({ params }: { params: { id: string } }) => {
           <Image
             src={product.imageUrl}
             alt={product.name}
-            width={600}
-            height={600}
+            width={60}
+            height={60}
             className="h-full w-full object-cover object-center"
           />
         </div>
