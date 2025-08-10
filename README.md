@@ -1,66 +1,36 @@
-# Sample Node.js E-commerce Website
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This is a sample e-commerce website built with Node.js, Express, and EJS.
+## Getting Started
 
-## Local Development Setup
+First, run the development server:
 
-These instructions will guide you through setting up the project on your local machine for development and testing purposes.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### Prerequisites
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Before you begin, ensure you have the following installed on your system:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-*   [Node.js](https://nodejs.org/) (which includes npm)
-*   [Git](https://git-scm.com/)
-*   [Visual Studio Code](https://code.visualstudio.com/)
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### 1. Setting up Visual Studio Code
+## Learn More
 
-Visual Studio Code (VS Code) is a lightweight but powerful source code editor.
+To learn more about Next.js, take a look at the following resources:
 
-1.  **Download and Install:** Visit the [VS Code website](https://code.visualstudio.com/) and download the installer for your operating system (Windows, macOS, or Linux). Run the installer and follow the on-screen instructions.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-2.  **Install Recommended Extensions:** Open VS Code and navigate to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X`. Here are some recommended extensions for Node.js development:
-    *   **ESLint:** Integrates ESLint into VS Code to help you find and fix problems in your JavaScript code.
-    *   **Prettier - Code formatter:** An opinionated code formatter that helps maintain consistent code style.
-    *   **DotENV:** Support for `dotenv` file syntax.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### 2. Cloning the Repository
+## Deploy on Vercel
 
-To get the code on your local machine, you need to clone the repository.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-1.  **Open a Terminal:** You can use the integrated terminal in VS Code (`View` -> `Terminal` or `Ctrl+\``) or any other terminal/command prompt.
-
-2.  **Clone the code:** Run the following command, replacing `<repository-url>` with the actual URL of this GitHub repository:
-    ```bash
-    git clone <repository-url>
-    ```
-
-3.  **Navigate to the project directory:**
-    ```bash
-    cd <repository-directory-name>
-    ```
-
-4.  **Open in VS Code:** If you're not already in VS Code, you can open the project folder with the following command:
-    ```bash
-    code .
-    ```
-
-### 3. Running the Application
-
-Once you have the code, you need to install the dependencies and start the server.
-
-1.  **Install Dependencies:** In the project's root directory (where `package.json` is located), run the following command to install all the necessary Node.js packages:
-    ```bash
-    npm install
-    ```
-    This will create a `node_modules` directory containing the project's dependencies.
-
-2.  **Start the Server:** To run the application, execute the following command:
-    ```bash
-    node index.js
-    ```
-
-3.  **View the Website:** You should see a message in the terminal indicating that the server is running, like `Server is running on http://localhost:3000`. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to see the website in action.
-
-You are now all set up to run and modify the application locally!
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
