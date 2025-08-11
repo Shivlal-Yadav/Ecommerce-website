@@ -13,8 +13,8 @@ const ProductCard = ({ product }: ProductCardProps) => {
         <Image
           src={product.imageUrl}
           alt={product.name}
-          width={400}
-          height={400}
+          width={40}
+          height={40}
           className="h-full w-full object-cover object-center group-hover:opacity-75"
         />
       </div>
